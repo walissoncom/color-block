@@ -221,3 +221,58 @@ html, body {
     font-size: 25px;
     font-weight: 500;
 }
+
+.dots {
+    position: absolute;
+    top: 43%;
+    right: -25px;
+    transform: rotate(90deg);
+}
+
+.dot {
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    background: transparent;
+    border: 2px solid #363A5D;
+    border-radius: 50%;
+    margin: 0 18px;
+}
+
+.dot:first-child {
+    background: #363A5D;
+    margin-left: 0;
+}
+
+.bottomnav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.bottomnav-img {
+    background: url('/img/levi-shirt.jpg') no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+}
+
+.bottomnav ul {
+    list-style: none;
+}
+
+.bottomnav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 20px 20px 20px 0;
+    background: #363A5D;
+    color: #FFF;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.bottomnav ul li:hover {
+    background: #FFF;
+    color: #363A5D;
+}

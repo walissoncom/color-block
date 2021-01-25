@@ -1,6 +1,6 @@
 # Color Block
 
-Color Block UI page created for studying purpose.
+Color Block UI page created for studying purposes.
 
 ## Live Demo
 
